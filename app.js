@@ -66,7 +66,6 @@ function finalWinner() {
     } else {
         console.log(`You lost Your Score : ${humanScore}, and Computer Score : ${computerScore}`);
     }
-    logScores();
 }
 
 
