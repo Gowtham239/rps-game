@@ -45,7 +45,7 @@ function playRound(humanChoice, computerChoice) {
         cScore.textContent = computerScore += 1;
     }
 
-    if(roundsPlayed === 5 || humanScore > 1 || computerScore > 1) {
+    if(roundsPlayed === 5) {
         finalWinner();
         disableButtons();
     }
